@@ -1,8 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
-const license = require('./license');
-
+import licenses from './license.js';
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -20,7 +19,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose a license for your project.',
-        choices: license, 
+        choices: licenses, 
     },
     {
         type: 'input',
@@ -32,9 +31,11 @@ const questions = [
         name: 'email',
         message: 'What is your preferred email?',
     }
-]
-.then(answers => {
-    console.log(answers);
+];
+
+inquirer.prompt(questions)
+    .then(answers => {
+        console.log(answers);
 });
 
 

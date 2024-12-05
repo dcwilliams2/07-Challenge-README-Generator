@@ -36,4 +36,4 @@ const licenses = [
         link: "http://unlicense.org/"
     },
 ];
-module.exports = licenses;
+export default licenses;
