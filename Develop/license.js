@@ -1,22 +1,22 @@
 const licenses = [
     {
         name: "GNU AGPLv3",
-        value: "AGPLv3",
+        value: "GNU AGPLv3",
         link: "https://choosealicense.com/licenses/agpl-3.0",
     },
     {
         name: "GNU GPLv3",
-        value: "GPLv3",
+        value: "GNU GPLv3",
         link: "https://choosealicense.com/licenses/gpl-3.0",
     },
     {
         name: "GNU LGPLv3",
-        value: "LGPLv3",
+        value: "GNU LGPLv3",
         link: "https://choosealicense.com/licenses/lgpl-3.0",
     },
     {
         name: "Mozilla Public 2.0",
-        value: "MPL 2.0",
+        value: "Mozilla Public 2.0",
         link: "https://choosealicense.com/licenses/mpl-2.0",
     },
     {
@@ -31,12 +31,12 @@ const licenses = [
     },
     {
         name: "Boost Software 1.0",
-        value: "BSL 1.0",
+        value: "Boost Software 1.0",
         link: "https://choosealicense.com/licenses/bsl-1.0",
     },
     {
         name: "The Unlicense",
-        value: "Unlicense",
+        value: "The Unlicense",
         link: "https://choosealicense.com/licenses/unlicense",
     }
 ];
