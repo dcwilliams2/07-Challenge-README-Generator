@@ -3,33 +3,33 @@
 import questions from "../index.js";
 import licenses from "../license.js";
 
-function renderLicenseBadge(licenseName) {
-  if (!licenseName) {
+function renderLicenseBadge(licenseValue) {
+  if (!licenseValue) {
     return "";
   } else {
-    return `![Static Badge](https://img.shields.io/badge/License-${licenseName}-green)`;
+    return `![Static Badge](https://img.shields.io/badge/License-${encodeURIComponent(licenseValue)}-green)`;
   }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(licenseName) {
-  if (!licenseName) {
+function renderLicenseLink(licenseValue) {
+  if (!licenseValue) {
     return "";
   } else {
-    const licenseObj = licenses.find((lic) => lic.name === licenseName);
+    const licenseObj = licenses.find((lic) => lic.name === licenseValue);
     return licenseObj ? licenseObj.link : "";
   }
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(licenseName) {
-  if (!licenseName) {
+function renderLicenseSection(licenseValue) {
+  if (!licenseValue) {
     return "";
   } else {
-    const licenseLink = renderLicenseLink(licenseName);
-    return `Licensed under [${licenseName}](${licenseLink}) license.`;
+    const licenseLink = renderLicenseLink(licenseValue);
+    return `Licensed under [${licenseValue}](${licenseLink}) license.`;
   }
 }
 
@@ -58,7 +58,7 @@ function generateMarkdown(answer) {
   ## Tests
   ${answer.test}
   ## Questions
-  
+  Please send any questions [Here](mailto:${answer.email}) or visit GitHub [Here](https://github.com/${answer.username}).
   ## License
   ${renderLicenseSection(answer.license)}
 `;
