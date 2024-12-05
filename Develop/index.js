@@ -3,6 +3,7 @@ import inquirer from 'inquirer';
 import fs from 'fs';
 import licenses from './license.js';
 import generateMarkdown from './utils/generateMarkdown.js';
+import path from 'path';
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -34,7 +35,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: 'Let us know how others can contribute to your project',
+        message: 'Let us know how others can contribute to your project.',
     },
     {
         type: 'input',
@@ -62,7 +63,7 @@ const questions = [
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answer) => {
-        writeToFile("./README.md", generateMarkdown({...answer}));
+        writeToFile("./test/README.md", generateMarkdown({...answer}));
     });
 }
 

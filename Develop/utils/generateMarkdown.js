@@ -7,7 +7,7 @@ function renderLicenseBadge(license) {
   if (!license) {
     return "";
   } else {
-    return `![Static Badge](https://img.shields.io/badge/license-${answer.license}-green)`;
+    return `![Static Badge](https://img.shields.io/badge/license-${license}-green)`;
   }
 }
 
@@ -27,7 +27,7 @@ function renderLicenseSection(license) {
   if (!license) {
     return "";
   } else {
-    return `Licensed under [${answer.license}](${licenseLink}) license.`;
+    return `Licensed under [${license}](${licenseLink}) license.`;
   }
 }
 
@@ -41,7 +41,7 @@ function generateMarkdown(answer) {
    - [Installation](#installation)
    - [Usage](#usage)
    - [Credits](#credits)
-   - [How to Contribute](#howtocontribute)
+   - [How to Contribute](#how-to-contribute)
    - [Tests](#tests)
    - [Questions](#questions)
    - [License](#license)
