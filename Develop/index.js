@@ -24,6 +24,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'mediaLinks',
+        message: 'Please provide any media links here.',
+    },
+    {
+        type: 'input',
         name: 'intro',
         message: 'Please answer the remaining questions in complete sentences. Press Enter to continue.',
         default: "",

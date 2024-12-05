@@ -42,6 +42,7 @@ function generateMarkdown(answer) {
   ## Table of Contents
    - [Installation](#installation)
    - [Usage](#usage)
+   - [Media Links](#media-links)
    - [Credits](#credits)
    - [How to Contribute](#how-to-contribute)
    - [Tests](#tests)
@@ -51,6 +52,8 @@ function generateMarkdown(answer) {
   ${answer.installation}
   ## Usage
   ${answer.usage}
+  ## Media Links
+  ${answer.mediaLinks}
   ## Credits
   ${answer.credits}
   ## How to Contribute
