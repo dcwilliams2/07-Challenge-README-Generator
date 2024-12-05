@@ -15,22 +15,22 @@ const licenses = [
         link: "https://choosealicense.com/licenses/lgpl-3.0",
     },
     {
-        name: "Mozilla Public License 2.0",
+        name: "Mozilla Public 2.0",
         value: "MPL 2.0",
         link: "https://choosealicense.com/licenses/mpl-2.0",
     },
     {
-        name: "Apache License 2.0",
+        name: "Apache 2.0",
         value: "Apache 2.0",
         link: "https://choosealicense.com/licenses/apache-2.0",
     },
     {
-        name: "MIT License",
+        name: "MIT",
         value: "MIT",
         link: "https://choosealicense.com/licenses/mit",
     },
     {
-        name: "Boost Software License 1.0",
+        name: "Boost Software 1.0",
         value: "BSL 1.0",
         link: "https://choosealicense.com/licenses/bsl-1.0",
     },

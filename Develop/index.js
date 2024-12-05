@@ -68,6 +68,8 @@ function init() {
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, answers) {
-    
+    return fs.writeFileSync(path.join(process.cwd(), fileName), answers);
 }
 init();
+
+export default questions;
