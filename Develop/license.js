@@ -1,39 +1,43 @@
 const licenses = [
     {
-        name: "MIT",
+        name: "GNU AGPLv3",
+        value: "AGPLv3",
+        link: "https://choosealicense.com/licenses/agpl-3.0",
+    },
+    {
+        name: "GNU GPLv3",
+        value: "GPLv3",
+        link: "https://choosealicense.com/licenses/gpl-3.0",
+    },
+    {
+        name: "GNU LGPLv3",
+        value: "LGPLv3",
+        link: "https://choosealicense.com/licenses/lgpl-3.0",
+    },
+    {
+        name: "Mozilla Public License 2.0",
+        value: "MPL 2.0",
+        link: "https://choosealicense.com/licenses/mpl-2.0",
+    },
+    {
+        name: "Apache License 2.0",
+        value: "Apache 2.0",
+        link: "https://choosealicense.com/licenses/apache-2.0",
+    },
+    {
+        name: "MIT License",
         value: "MIT",
-        badge: "![MIT License](https://img.shields.io/badge/license-MIT-green)",
-        link: "https://opensource.org/licenses/MIT"
+        link: "https://choosealicense.com/licenses/mit",
     },
     {
-        name: "Apache 2.0",
-        value: "Apache-2.0",
-        badge: "![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue)",
-        link: "https://opensource.org/licenses/Apache-2.0"
+        name: "Boost Software License 1.0",
+        value: "BSL 1.0",
+        link: "https://choosealicense.com/licenses/bsl-1.0",
     },
     {
-        name: "GPL",
-        value: "GPL",
-        badge: "![GPL License](https://img.shields.io/badge/license-GPL-blue)",
-        link: "https://www.gnu.org/licenses/gpl-3.0"
-    },
-    {
-        name: "BSD 3-Clause",
-        value: "BSD-3-Clause",
-        badge: "![BSD 3-Clause License](https://img.shields.io/badge/license-BSD%203--Clause-orange)",
-        link: "https://opensource.org/licenses/BSD-3-Clause"
-    },
-    {
-        name: "Creative Commons Attribution 4.0",
-        value: "CC-BY-4.0",
-        badge: "![CC BY 4.0 License](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)",
-        link: "https://creativecommons.org/licenses/by/4.0/"
-    },
-    {
-        name: "Unlicense",
+        name: "The Unlicense",
         value: "Unlicense",
-        badge: "![Unlicense](https://img.shields.io/badge/license-Unlicense-lightgrey)",
-        link: "http://unlicense.org/"
-    },
+        link: "https://choosealicense.com/licenses/unlicense",
+    }
 ];
 export default licenses;
