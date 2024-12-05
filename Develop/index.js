@@ -1,7 +1,42 @@
 // TODO: Include packages needed for this application
+import inquirer from 'inquirer';
+import fs from 'fs';
+const license = require('./license');
+
 
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is the title of your project?',
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Please describe the project.',
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license for your project.',
+        choices: license, 
+    },
+    {
+        type: 'input',
+        name: 'username',
+        message: 'What is your GitHub username?',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your preferred email?',
+    }
+]
+.then(answers => {
+    console.log(answers);
+});
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
