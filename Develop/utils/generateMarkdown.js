@@ -24,13 +24,22 @@ function generateMarkdown(answer) {
    - [Credits](#credits)
    - [How to Contribute](#howtocontribute)
    - [Tests](#tests)
+   - [Questions](#questions)
    - [License](#license)
   ## Installation
+  ${answer.installation}
   ## Usage
+  ${answer.usage}
   ## Credits
+  ${answer.usage}
   ## How to Contribute
+  ${answer.contributing}
   ## Tests
+  ${answer.test}
+  ## Questions
+  Please send any questions [Here](mailto:${answer.email}) or visit GitHub [Here](https://github.com/${answer.username}).
   ## License
+  ${renderLicenseSection}
 `;
 }
 
