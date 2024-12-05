@@ -9,8 +9,24 @@ import path from 'path';
 const questions = [
     {
         type: 'input',
+        name: 'username',
+        message: 'What is your GitHub username?',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your preferred email?',
+    },
+    {
+        type: 'input',
         name: 'title',
-        message: 'What is the title of your project?',
+        message: 'What is the title of the project?',
+    },
+    {
+        type: 'input',
+        name: 'intro',
+        message: 'Please answer the remaining questions in complete sentences. Press Enter to continue.',
+        default: "",
     },
     {
         type: 'input',
@@ -19,8 +35,18 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'motivation',
+        message: 'What was the motivation for the project?',
+    },
+    {
+        type: 'input',
+        name: 'problem',
+        message: 'Why was this project developed? And what problem does it solve?',
+    },
+    {
+        type: 'input',
         name: 'installation',
-        message: 'What are the steps required to install your project?',
+        message: 'What are the steps required to install the project?',
     },
     {
         type: 'input',
@@ -35,28 +61,18 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: 'Let us know how others can contribute to your project.',
+        message: 'Let us know how others can contribute to the project.',
     },
     {
         type: 'input',
         name: 'test',
-        message: 'Please provide any tests and examples on how to run them here.',
+        message: 'Please provide any tests and examples on how to run them.',
     },
     {
         type: 'list',
         name: 'license',
-        message: 'Choose a license for your project.',
+        message: 'Choose a license for the project.',
         choices: licenses, 
-    },
-    {
-        type: 'input',
-        name: 'username',
-        message: 'What is your GitHub username?',
-    },
-    {
-        type: 'input',
-        name: 'email',
-        message: 'What is your preferred email?',
     }
 ];
 

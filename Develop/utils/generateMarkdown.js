@@ -38,7 +38,7 @@ function generateMarkdown(answer) {
   return `# ${answer.title}
   ${renderLicenseBadge(answer.license)}
   ## Description
-  ${answer.description}
+  ${answer.description} ${answer.motivation} ${answer.problem}
   ## Table of Contents
    - [Installation](#installation)
    - [Usage](#usage)
@@ -52,7 +52,7 @@ function generateMarkdown(answer) {
   ## Usage
   ${answer.usage}
   ## Credits
-  ${answer.usage}
+  ${answer.credits}
   ## How to Contribute
   ${answer.contributing}
   ## Tests
