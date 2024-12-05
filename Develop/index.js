@@ -17,6 +17,31 @@ const questions = [
         message: 'Please describe the project.',
     },
     {
+        type: 'input',
+        name: 'installation',
+        message: 'What are the steps required to install your project?',
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Please provide instructions and examples for use.',
+    },
+    {
+        type: 'input',
+        name: 'credits',
+        message: 'Please list your collaborators and/or any third-party assets used.',
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'Let us know how others can contribute to your project',
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Please provide any tests and examples on how to run them here.',
+    },
+    {
         type: 'list',
         name: 'license',
         message: 'Choose a license for your project.',
