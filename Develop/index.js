@@ -84,7 +84,7 @@ const questions = [
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answer) => {
-        writeToFile("./README.md", generateMarkdown({...answer}));
+        writeToFile("./Test/README.md", generateMarkdown({...answer}));
     });
 }
 
