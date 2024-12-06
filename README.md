@@ -30,7 +30,7 @@
 	node index.js
 	```
   ## Media Links
-  Visit [Here](https://www.youtube.com/@mountedshooter32) for linked media.
+  Visit [Here](https://youtu.be/vKRZlJ0L1EE) for linked media.
   ## Credits
   Developers included myself and I have provided contact information below. I also used https://shields.io/, https://choosealicense.com/ and https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide to help me develop the application. 
   ## How to Contribute
