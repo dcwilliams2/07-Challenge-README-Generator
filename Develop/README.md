@@ -12,9 +12,23 @@
    - [Questions](#questions)
    - [License](#license)
   ## Installation
-  To install the application navigate to the repository listed below and create a fork of the application to your GitHub account.
+1. Clone the repository:
+    ```sh
+    git clone git@github.com:repo name
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd repo name
+    ```
+3. Install the necessary dependencies:
+    ```sh
+    npm install 
+    ``` 
   ## Usage
-  Launch the application from your terminal and within the respected directory by using the "node index.js" command. 
+  Launch the application from your terminal and within the respected directory:
+    ```sh
+    node index.js
+    ```
   ## Media Links
   Visit [Here](https://www.youtube.com/@mountedshooter32) for linked media.
   ## Credits
