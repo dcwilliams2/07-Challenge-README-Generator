@@ -53,7 +53,7 @@ function generateMarkdown(answer) {
   ## Usage
   ${answer.usage}
   ## Media Links
-  ${answer.mediaLinks}
+  Visit [Here](${answer.mediaLinks}) for linked media.
   ## Credits
   ${answer.credits}
   ## How to Contribute
