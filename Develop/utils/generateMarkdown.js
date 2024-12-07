@@ -34,6 +34,13 @@ function renderLicenseSection(licenseValue) {
 }
 
 // TODO: Create a function to generate markdown for README
+
+// For Installation and usage: Could add questions that prompt for the code needed to install and launch program.
+//Would need to separate the question and responses from the how to text and recall the code between ```sh & ``` 
+//in the markdown generator. Could make a loop(?) to ask the prompt for steps needed to install the application. 
+//Text instructions and then code. Recall responses via 1. , 2. 3. etc. under installation section.
+//May also want to add a console log reading "Complete. File Created" or "Error".
+
 function generateMarkdown(answer) {
   return `# ${answer.title}
   ${renderLicenseBadge(answer.license)}
