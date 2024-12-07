@@ -14,11 +14,11 @@
   ## Installation
 1. Clone the repository:
 	```sh
-	git clone git@github.com:repo name
+	git clone https://github.com/dcwilliams2/07-Challenge-README-Generator.git
 	```
 2. Navigate to the project directory:
 	```sh
-	cd repo name
+	cd 07-Challenge-README-Generator
 	```
 3. Install the necessary dependencies:
 	```sh
